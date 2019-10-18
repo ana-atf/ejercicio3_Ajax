@@ -6,39 +6,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 
 <body>
 
-<!-- England -->
+    <!-- England -->
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            England
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a id="london" class="dropdown-item" href="#">London</a>
+            <a id="birmingham" class="dropdown-item" href="#">Birmingham</a>
+            <a id="manchester" class="dropdown-item" href="#">Manchester</a>
+            <a id="liverpool" class="dropdown-item" href="#">Liverpool</a>
+        </div>
+    </div>
+
+    <!-- France -->
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            France
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a id="paris" class="dropdown-item" href="#">Paris</a>
+            <a id="lyon" class="dropdown-item" href="#">Lyon</a>
+            <a id="marseille" class="dropdown-item" href="#">Marseille</a>
+        </div>
+    </div>
+
+    <!-- Germany -->
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Germany
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a id="berlin" class="dropdown-item" href="#">Berlin</a>
+            <a id="frankfurt" class="dropdown-item" href="#">Frankfurt</a>
+            <a id="munich" class="dropdown-item" href="#">Munich</a>
+            <a id="dusseldorf" class="dropdown-item" href="#">Düsseldorf</a>
+        </div>
+    </div>
+
+    <!-- Greece -->
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Greece
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a id="athens" class="dropdown-item" href="#">Athens</a>
+            <a id="santorini" class="dropdown-item" href="#">Santorini</a>
+        </div>
+    </div>
+
+    <!-- Italy -->
     <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
-                England
+                Italy
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a id="london" class="dropdown-item" href="#">London</a>
-                <a id="birmingham" class="dropdown-item" href="#">Birmingham</a>
-                <a id="manchester" class="dropdown-item" href="#">Manchester</a>
-                <a id="liverpool" class="dropdown-item" href="#">Liverpool</a>
+                <a id="rome" class="dropdown-item" href="#">Rome</a>
+                <a id="venice" class="dropdown-item" href="#">Venice</a>
+                <a id="milan" class="dropdown-item" href="#">Milan</a>
             </div>
-    </div>
+        </div>
 
-<!-- France -->
+    <!-- Spain -->
     <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
-                France
+                Spain
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a id="paris" class="dropdown-item" href="#">Paris</a>
-                <a id="lyon" class="dropdown-item" href="#">Lyon</a>
-                <a id="marseille" class="dropdown-item" href="#">Marseille</a>
+                <a id="barcelona" class="dropdown-item" href="#">Barcelona</a>
+                <a id="madrid" class="dropdown-item" href="#">Madrid</a>
             </div>
-    </div>
-
+        </div>        
 
 
 
@@ -57,9 +108,15 @@
     </div>
 
     <script src="index.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
 </body>
 
