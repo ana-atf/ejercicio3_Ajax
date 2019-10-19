@@ -1,0 +1,48 @@
+/* .rowBorder {
+    border: 2px solid red;
+}
+
+.colBorder{
+    border: 2px solid red;
+} */
+
+.navbar{
+
+    background-color: snow!important;
+
+}
+body{
+    background-image: url("./assets/background3.jpg");
+    background-size: cover;
+    /* text-align: right; */
+    /* color: white */
+}
+
+.btn{
+    width: 100px;
+}
+
+p {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    width: 50px;
+
+}
+
+h1 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#datosResultados {
+    width: 10px;
+}
+
+#resultado {
+    margin-top: 10px;
+}
