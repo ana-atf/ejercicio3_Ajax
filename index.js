@@ -18,19 +18,19 @@ function consultarDatos(city) {
     for (i = 0; i < city.consolidated_weather.length; i++) {
         tempActual.push(city.consolidated_weather[i].the_temp)
     }
-    document.querySelectorAll("input")[0].value = Math.round(tempActual[0])
+    document.querySelectorAll("input")[0].value = Math.round(tempActual[0])+ "ºC"
 
     let tempMaxima = []
     for (i = 0; i < city.consolidated_weather.length; i++) {
-        tempMaxima.push(city.consolidated_weather[i].max_temp)
+        tempMaxima.push(city.consolidated_weather[i].max_temp)+ "ºC"
     }
-    document.querySelectorAll("input")[1].value = Math.round(tempMaxima[0])
+    document.querySelectorAll("input")[1].value = Math.round(tempMaxima[0])+ "ºC"
 
     let tempMinima = []
     for (i = 0; i < city.consolidated_weather.length; i++) {
         tempMinima.push(city.consolidated_weather[i].min_temp)
     }
-    document.querySelectorAll("input")[2].value = Math.round(tempMinima[0])
+    document.querySelectorAll("input")[2].value = Math.round(tempMinima[0]) + "ºC"
 
     let humedad = []
     for (i = 0; i < city.consolidated_weather.length; i++) {
@@ -176,36 +176,6 @@ function showPicture(city) {
     document.querySelector("#cityPic").innerHTML = "<img id='image" + city + "' src='assets/" + city + ".jpg' width='100%' height='100%'/>"
 
 }
-
-//imagen
-
-// function añadirImagen() {
-//     let imagen;
-//     if ()
-// }
-
-
-// let imagen;
-
-// if (document.querySelector("#barcelona") == "Barcelona"){
-//     imagen ="assets/imagen2.jpg"
-// }else if (document.querySelector("#madrid") == "Madrid"){
-//     imagen="assets/imagen3.jpg"
-
-// }
-
-// let imgCity = document.querySelector("#resultadoImagen")
-// imgCity.src = imagen
-
-
-
-
-
-
-
-
-
-
 
 //web api --> https://www.metaweather.com/es/23424829/
 
